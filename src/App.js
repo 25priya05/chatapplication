@@ -1,14 +1,12 @@
-import React from 'react';
-import Header from './components/Header';
-import Textbox from './components/Textbox';
-import SendButton from './components/SendButton';
-function App() {
+import React from "react";
+import Register from "./components/Register"; // Adjust the import path based on your project structure
+
+const App = () => {
   return (
     <div className="App">
-      <Header/>
-      <SendButton/>
+      <Register />
     </div>
   );
-}
+};
 
 export default App;
