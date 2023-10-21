@@ -1,11 +1,15 @@
 import React from "react";
-import "./style.scss"
-import Register from "./components/Register"; // Adjust the import path based on your project structure
+import Register from "./Pages/Register";// Adjust the import path based on your project structure
+import Login from "./Pages/Login";
+import Home from  "./Pages/Home";
+import "./style.scss";
 
 const App = () => {
   return (
     <div className="App">
-      <Register />
+     <Home />
+    
+  
     </div>
   );
 };
