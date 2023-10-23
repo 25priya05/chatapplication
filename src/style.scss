@@ -70,9 +70,9 @@
 
 }
 }
-.Home 
+.home 
 {
-    background-color: #f3ca20;
+    background-color: #eedfa3;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -83,8 +83,30 @@
     width: 65%;
     height: 80%;
     display: flex;
-    .sidebar{flex: 1;}
-    .chat{flex: 2;}
+    overflow: hidden;
 
+    .sidebar 
+    {
+        flex: 1; 
+     background-color: rgb(91, 81, 81);
+     position: relative;
+     .navbar
+     {
+        display: flex;
+        align-items: center;
+        background-color: #d5d5f3;
+        height: 50px;
+        padding: 10px;
+        justify-content: center;
+        color: #373741;
+
+     }
+    }
+    .chat 
+    {
+        flex: 2;
+    }
 }
+
+
 }

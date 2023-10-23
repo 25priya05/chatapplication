@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './Navbar';
 
-const sidebar = () => {
+
+const Sidebar = () => {
   return (
-    <div className='sidebar'>
-    sidebar
+    <div className="sidebar">
+    <Navbar/>
     </div>
-  )
-}
+  );
+};
 
-export default sidebar
+export default Sidebar;

@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div>
-      
+    <div className='navbar'>
+      <span className='logo'>chat app</span>
+      <div className="user"></div>
+      <img src="" alt="" />
+      <span></span>
+      <button>log out</button>
     </div>
-  )
-}
+  );
+};
 
-export default navbar
+export default Navbar;
